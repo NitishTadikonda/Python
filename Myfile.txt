@@ -1,0 +1,14 @@
+
+Hello
+Nitish
+welcome to My world
+lass Abc():
+    """Sample"""
+    def m1(self):
+        print("in M1 of ABC")
+a1 = Abc()
+print(Abc.__bases__)#it gives the super class of that class
+print(a1)#prints the address of the object
+b = a1.__hash__#it prints the direct address of the object
+print(b)
+a1.m1()'''
